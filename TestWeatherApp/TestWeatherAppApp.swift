@@ -8,10 +8,25 @@
 import SwiftUI
 
 @main
-struct TestWeatherAppApp: App {
+struct TestWeatherApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
+
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        print("App will enter foreground")
+        // Perform any additional actions here
+    }
+    
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        print("App did enter background")
+        // Perform any additional actions here
     }
 }
