@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreLocation
 
-struct ContentView: View {
+struct WeatherContainerView: View {
     @StateObject var locationHandler = LocationRouter() /// TODO : Make this singleton
     @StateObject var weatherUtil = WeatherUtility()
     @State private var searchText = ""
@@ -87,7 +87,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        WeatherContainerView()
     }
 }
 

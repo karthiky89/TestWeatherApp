@@ -51,8 +51,3 @@ struct TopTierView: View {
     }
 }
 
-
-
-#Preview {
-    TopTierView()
-}

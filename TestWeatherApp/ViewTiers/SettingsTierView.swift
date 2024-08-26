@@ -166,9 +166,3 @@ extension Notification.Name {
     static let settingsChanged = Notification.Name("settingsChanged")
 }
 
-
-//struct SettingsTierView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SettingsTierView(settingsModel: self.settingsModel)
-//    }
-//}

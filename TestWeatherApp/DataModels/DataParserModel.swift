@@ -1,5 +1,5 @@
 //
-//  ParserModel.swift
+//  DataParserModel.swift
 //  TestWeatherApp
 //
 //  Created by Karthik Yalamanchili on 8/21/24.
